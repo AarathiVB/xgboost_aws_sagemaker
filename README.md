@@ -5,6 +5,7 @@
 Predicting customer responses to a bank marketing campaign using **Amazon SageMaker's built-in XGBoost algorithm**. The dataset contains customer information and whether they subscribed to a bank product after a marketing campaign.
 
 ### **Solution Approach**
+- This project was **implemented as a Notebook Instance in AWS SageMaker**.
 - We **train an XGBoost model** on AWS SageMaker.
 - Data is **uploaded to Amazon S3** for storage.
 - **Hyperparameters are optimized** for better model accuracy.
@@ -154,7 +155,7 @@ predictions = xgb_predictor.predict(test_data_array).decode('utf-8')
 ---
 
 ## **📌 Summary**
-- **AWS SageMaker** is used to train and deploy an XGBoost model.
+- **AWS SageMaker Notebook Instance** was used to train and deploy an XGBoost model.
 - **S3 is used for data storage**, and model outputs are stored there.
 - **Trained model is deployed as an endpoint** for real-time inference.
 - **The model predicts customer responses** to a bank marketing campaign.
@@ -164,4 +165,4 @@ predictions = xgb_predictor.predict(test_data_array).decode('utf-8')
 ## **📜 License**
 This project is licensed under the **MIT License**.
 
-
+Let me know if you need further modifications! 🚀
