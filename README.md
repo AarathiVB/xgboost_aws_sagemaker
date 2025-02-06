@@ -23,18 +23,6 @@ Predicting customer responses to a bank marketing campaign using **Amazon SageMa
 
 ---
 
-## **📂 Project Directory Structure**
-```
-AWS_SM_Project/
-│── README.md                   # Project Documentation
-│── AWS_SM.ipynb                 # Jupyter Notebook with Code
-│── bank_clean.csv               # Dataset
-│── train.csv                    # Processed Training Data
-│── test.csv                     # Processed Test Data
-```
-
----
-
 ## **1️⃣ Set Up AWS SageMaker and S3**
 ### **📌 Prerequisites**
 - AWS Account
